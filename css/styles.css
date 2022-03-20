@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@500&family=Secular+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+div .content{
+    background: rgba(0,0,0,0.3);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    float: middle;
+    width: 75%;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+
+
+}
+.video-bg{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+}
+.rbutton{
+    background: linear-gradient(90deg,yellow, violet);
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    border-style: none;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    padding: 9px;
+    margin: 10px;
+    margin-bottom: 30px;
+
+}
+
+.head{
+    font-family: 'Secular One', sans-serif;
+    font-size: 60px;
+    letter-spacing: 0.25em;
+    padding-top: 20px;
+}
+
+.para{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    padding: 20px;
+}
+
+.socials{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.logo{
+    padding: 10px;
+    cursor: pointer;
+}
